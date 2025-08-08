@@ -106,6 +106,8 @@ Cada vez que se instala un sistema linux, es recomendable ejecutar el siguiente 
 
 ```sudo apt-get update && sudo apt-get upgrade -y ```
 
+# Esta instalacion funciona tanto para la maquina donde se aloja el SIEM como la para la maquina donde se colocara el agente que monitorea los eventos del equipo, ya que para ambos se utilizara Ubuntu
+
 <img width="1918" height="920" alt="image" src="https://github.com/user-attachments/assets/8ee681e0-9cad-466b-b841-8e5d0d7e4d7f" />
 
 Con la finalidad de que el sistema opeartivo se actualice junto a las aplicaciones.
