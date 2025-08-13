@@ -171,7 +171,7 @@ Para ver el archivo ```index.html``` en la web, desde el navegador se coloca lo 
 
 De esta manera se confirma que el sistema operativo tiene una pagina web corriendo por el puerto TCP 80.
 
-# Paso 4: Creacion de un archivo que permite subir archivos
+# Paso 4: Creacion de una pagina web con vulnerabilidad en la subida de archivos
 
 Para este paso se creara un archivo php que tenga la funcionalidad de subir archivos sin verificar la extension, es decir sin sanitizar, la idea que verificar desde el SIEM como se registran estos compartimientos, ver cuando un atacante sube un archivo que contenga una ```Web Shell``` o una ```Reverse shell```.
 
